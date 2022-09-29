@@ -16,19 +16,6 @@
     "clientName": "NERV 都市住民票確認", //"Veriable Credential Expert Verifier",
     "purpose": "NERV 都市住民票を提示ください", //"So we can see that you a veriable credentials expert"
   },
-<<<<<<< HEAD
-  
-  "includeReceipt": false,
-  //You can request multiple verifiable credentials at once that's whty the requestCredentials is an array
-  "requestedCredentials": [
-    {
-      "type": "VerifiedCredentialExpert",
-      "purpose": "So we can see that you a veriable credentials expert",
-      //You can trust multiple issuers who might be issuing the same credential type (for example certifications or diplomas)
-      //You need to specify at least 1 trusted issuer DID, for this sample code we copy the IssuerAuthority from appsettings to the request
-      "acceptedIssuers": [ "did:ion: copied from your VC portal in this sample the code copies it from APPSETTINGS.JSON" ]
-    }
-=======
   "presentation": {
     "includeReceipt": false,
     //You can request multiple verifiable credentials at once that's whty the requestCredentials is an array
@@ -40,7 +27,6 @@
         //You need to specify at least 1 trusted issuer DID, for this sample code we copy the IssuerAuthority from appsettings to the request
         "acceptedIssuers": [ "did:ion: copied from your VC portal in this sample the code copies it from APPSETTINGS.JSON" ]
       }
->>>>>>> nervcity1
 
   ],
   "configuration": {
