@@ -28,13 +28,6 @@
         "acceptedIssuers": [ "did:ion: copied from your VC portal in this sample the code copies it from APPSETTINGS.JSON" ]
       }
 
-  ],
-  "configuration": {
-    "validation": {
-      "allowRevoked": true,
-      "validateLinkedDomain": true
-    }
-
     ]
   }
 }

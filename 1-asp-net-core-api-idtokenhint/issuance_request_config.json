@@ -15,7 +15,7 @@
   "registration": {
     "clientName": "Nerv CityCitizon Card App" //"Verifiable Credential Expert Sample"
   },
-  //The type needs to be the same as defined in the rules json definitione. The manifest can be copied after the credential has been
+  //The type needs to be the same as defined in the rules json file. The manifest can be copied after the credential has been
   //created in the azure portal
   "issuance": {
     "type": "NervCityCitizonCard1", //"VerifiedCredentialExpert",
